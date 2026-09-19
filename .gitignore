@@ -1,0 +1,7 @@
+# Keep the checkpoint repository lightweight by default.
+# Copy only models intended for the test machine into publish/.
+*
+!README.md
+!.gitignore
+!publish/
+!publish/**
